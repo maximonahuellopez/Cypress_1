@@ -1,3 +1,5 @@
 {
-  "projectId": "x6houe"
+  "projectId": "x6houe",
+  "video": false,
+  "screenshotOnRunFailure": false
 }
