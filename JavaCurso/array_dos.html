@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Array dos</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+    let frutas=["Naranja","Pera","Melon","Sandia"]
+    
+    /*
+        console.log("Cantidad de elementos: "+frutas.length)
+        console.log("Mostrar Pera: "+frutas[1])
+    
+        let datos={nom:'Maximo',sn:'Nahuel',ap:"lopez"}
+        console.log(datos)
+        console.log(datos.nom)
+        
+
+        frutas.forEach(function(elemento,indice,array){
+            //console.log("el ele es: "+elemento)
+            //console.log("el indi es: "+indice)
+            //console.log("el arra es: "+array)
+            console.log(indice,elemento)
+        })
+    */
+    
+
+    //AGREGAR UN ELEMENTO AL FINAL - PUSH
+    let nuevoFinal=frutas.push('Piña')
+
+    //QUITA ULTIMO ELEMENTO AL FINAL - POP
+    let eliminaUlti=frutas.pop()
+
+    //AGREGAR UN ELEMENTO AL PRINCIPIO - unshift
+    let nuevoPrincipio=frutas.unshift('Granada')
+
+    //QUITA UN ELEMENTO AL PRINCIPIO - shift
+    let nuevoPrincipio2=frutas.shift('Granada')
+
+    //ENCONTRAR UN ELEMENTO EN UNA POSICIÓN - indexOf
+    let buscarEle=frutas.indexOf('Melon')
+    //console.log("El elemento buscado esta en la posició: " + buscarEle)
+
+    //ELIMINAR UN ELEMENTO EN UNA POSICIÓN - splice
+    let eliminarElePos=frutas.splice(buscarEle,0)
+
+    console.log("esto es de frutas 1")
+    frutas.forEach(function(elemento,indice,array){
+        console.log(indice,elemento)
+    })
+
+
+    //COPIAR TODO EL ARRAY A OTRO
+    let frutas2=frutas.slice()
+    console.log("esto es de frutas 2")
+    frutas2.forEach(function(elemento,indice,array){
+        console.log(indice,elemento)
+    })
+
+        
+
+
+
+
+
+
+    
+</script>

@@ -1,0 +1,9 @@
+npm init
+npm install cypress --save-dev (Instala cypress)
+npm install -g npx (instalar npx para utilizar --force)
+npx cypress install --force (Forzar la Instalacion cypress)
+npx cypress open (Ejecuta cypress)
+----------------------------------------
+Frenar consola (Control + C)
+para los id primero colocar #
+----------------------------------------
