@@ -1,5 +1,6 @@
 {
   "projectId": "x6houe",
   "video": false,
-  "screenshotOnRunFailure": false
+  "screenshotOnRunFailure": false,
+  "chromeWebSecurity": false
 }
