@@ -3,12 +3,9 @@
     "name": "Jesica",
     "lastName": "Bustamante",
     "email": "weuyalauffuvi-2011@yopmail.com",
-    "address": "San Lorenzo 8440",
     "phone": 1134895632,
-    "lenguaje": "CypressIO",
-    "windows": "Windows 7",
-    "year": 2022,
-    "month": "Abril",
-    "day": 5
+    "address": "San Lorenzo 8440",
+    "countCharacters":"16 characters / 3 words",
+    "messageOk":"Gracias por tu encuesta"
   }
 }
